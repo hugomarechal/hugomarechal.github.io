@@ -1,1 +1,143 @@
-Hello World
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio d'Hugo Maréchal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h2><a href="#">Hugo Maréchal</a></h2>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>    
+        <section id="welcome">
+            <div id="title_text">
+                <h1>Bienvenue sur mon portfolio.</h1>
+                <p class="light">Je suis Hugo, développeur front-end (aspirant full-stack) autodidacte de 26 ans.<br> Voici mon travail.</p>
+            </div>
+            <div id="quick_info">
+                <div id="quick_socials">
+                    <a href="https://github.com/hugomarechal"><img src="images/square-github.svg" alt="github icon"></a>
+                    <a href="https://www.linkedin.com/in/hugomarechal"><img src="images/linkedin.svg" alt="linkedin icon"></a>
+                    <a href="mailto:hugo_m7@live.fr"><img src="images/envelope-solid.svg" alt="mail icon"></a>
+                </div>
+                <div id="skillset">
+                    <div><img src="images/HTML5_logo_and_wordmark.svg.png" alt="HTML5 logo" class="logo"></div>
+                    <div><img src="images/CSS3_logo_and_wordmark.svg.png" alt="CSS3 logo" class="logo"></div>
+                    <div><img src="images/JavaScript-logo.png" alt="javascript logo" class="logo"></div>
+                    <div><img src="images/React-icon.svg.png" alt="react logo" class="logo"></div>
+                    <div><img src="images/nodejs-logo-FBE122E377-seeklogo.com.png" alt="node.js logo" class="logo"></div>
+                </div>
+                <div id="localisation">
+                    <p class="light">📍 Marseille</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div id="about_container">
+                <h2>Faisons connaissance.</h2>
+                <br>
+                <p class="light">
+                    Après plusieurs années de carrière dans la restauration, j'ai décidé à 26 ans de prendre un nouveau départ et de devenir développeur. <br><br>
+                    J'ai toujours été attiré par la tech et l'informatique. C'est donc avec énormément d'enthousiasme et de motivation que j'ai commencé à me former en autodidacte avant de rejoindre la 3W Academy en alternance. <br><br>
+                    Tout le long de ce parcours, j'ai appris et continuer de me perfectionner sur les technologies du web comme les incontournables HTML5, CSS3 et JavaScript mais également React, SASS et Bootstrap afin de mettre en valeur votre contenu sur le web.<br><br>
+                    Chacun des projets que vous trouvez ci-dessous est le résultat de cet apprentissage et le témoin de ma progression et de mon évolution.<br><br>
+                </p>
+                
+            </div>
+            <div id="portrait">
+                <img src="images/1692781324899.jpeg" alt="moi ptdr">
+            </div>
+
+        </section>
+        <section id="projects">
+            <div id="projects_text">
+                <h2>Mes projets personnels</h2>
+                <p class="light">Les projets suivants ont été réalisés dans le cadre de mon apprentissage.</p>
+            </div>
+            <div id="projects_tiles">
+                <div class="tile">
+                    <div class="projects_descr">
+                        <h3>SiteName (exemple de site vitrine)</h3>
+                        <p class="used_lang">HTML5 / CSS3</p><br>
+                        <p class="light">Intégration d'une maquette Photoshop contenant diverses informations sur une entreprise fictive, ainsi qu'un formulaire de contact.</p>
+                        <br><br><a href="" class="link_to_project"><p>Visiter >></p></a>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/blue_site_tn.png" alt="photoshop int thumbnail">
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="projects_descr">
+                        <h3>Belajar Skill (exemple de site vitrine)</h3>
+                        <p class="used_lang">HTML5 / CSS3</p><br>
+                        <p class="light">Intégration d'une maquette Figma contenant diverses informations sur une entreprise fictive, ainsi qu'une carte interactive et un formulaire de contact.</p>
+                        <br><br><a href="" class="link_to_project"><p>Visiter >></p></a>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/yellow_site_tn.png" alt="figma int thumbnail">
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="projects_descr">
+                        <h3>Placeholder.com</h3>
+                        <p class="used_lang">HTML5 / CSS3</p><br>
+                        <p class="light">Site vitrine basique en HTML et CSS. L'objectif de cet exercice était de construire une page web simple en incluant un formulaire et diverses informations, le tout mis en forme en utilisant CSS.<br>Le site "par défaut" par excellence.</p>
+                        <br><br><a href="" class="link_to_project"><p>Visiter >></p></a>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/placeholder.com.png" alt="placeholder.com thumbnail">
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="projects_descr">
+                        <h3>Formulaire CSS</h3>
+                        <p class="used_lang">HTML5 / CSS3</p><br>
+                        <p class="light">Formulaire complet, utilisant un maximum de fonctionnalités HTML, mis en forme avec CSS. Les boutons et les champs réagissent au survol et au contenu.</p>
+                        <br><br><a href="" class="link_to_project"><p>Visiter >></p></a>
+                    </div>
+                    <div class="thumbnail">
+                        <img src="images/CSSform.png" alt="CSS form">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="contact">
+            <h2>À bientôt ! <br>N'hésitez pas à me contacter !</h2>
+            <div>
+                <div class="contact_info">
+                    <a href="https://github.com/hugomarechal">
+                        <img src="images/square-github.svg" alt="github icon">
+                        <p>github.com/hugomarechal</p>
+                    </a>
+                </div>
+                <div class="contact_info">
+                    <a href="https://www.linkedin.com/in/hugomarechal">
+                        <img src="images/linkedin.svg" alt="linkedin icon">
+                        <p>linkedin.com/hugomarechal</p>
+                    </a>
+                </div>
+                <div class="contact_info">
+                    <a href="mailto:hugo_m7@live.fr">
+                        <img src="images/envelope-solid.svg" alt="mail icon">
+                        <p>hugo_m7@live.fr</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
