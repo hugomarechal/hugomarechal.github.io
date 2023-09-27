@@ -1,14 +1,8 @@
-function showPopup() {
-    var popup = document.getElementById('popup');
-    popup.style.display = 'block';
-}
+const links = document.querySelectorAll("div li");
 
-function closePopup() {
-    var popup = document.getElementById('popup');
-    popup.style.display = 'none';
-}
-
-window.onload = function () {
-    showPopup();
-};
-
+icons.addEventListener("click", () => {
+   document.getElementById("mobile_menu").classList.toggle("active");
+})
+links.forEach(link => link.addEventListener("click", () => {
+    document.getElementById("mobile_menu").classList.remove("active");
+}))
