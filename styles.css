@@ -387,12 +387,13 @@ nav>ul>li>a {
         height: 1.5em;
         display: none;
     }
-    
+
     #skillset img {
         height: 2em;
     }
     
     #localisation {
+        justify-content: center;
         flex-direction: row;
     }
     
@@ -433,6 +434,7 @@ nav>ul>li>a {
     #projects_text {
         text-align: center;
         gap: 20px;
+        padding: 30px;
     }
 
     #projects h2 {
